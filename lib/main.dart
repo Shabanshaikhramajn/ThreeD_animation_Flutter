@@ -85,6 +85,7 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin  
       body: Center(
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.center,
+          mainAxisAlignment: MainAxisAlignment.center,
           children: [
             SizedBox(height: widthAndHeight,
              width: double.infinity,
